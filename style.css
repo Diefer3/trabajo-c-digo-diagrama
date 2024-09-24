@@ -9,4 +9,14 @@ border-radius: 8px;
 box-shadow: 0 2px 5px rgba(red, green, blue, alpha);}
 
 .inputs,output {margin: 10px 0;}
-.text {font}
+.text {font-weight: bold;color: #333;}
+.input, .reslt {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+.result {
+    background-color: #00d1b2; /* verde si es 1*/
+    color: white;
+}
