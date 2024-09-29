@@ -1,22 +1,44 @@
-body {font-family: arial,sams-serief;background-color: rgba(222, 211, 211, 0.758);text-align: center;}
-.title { margin-top: 20px;color: blueviolet;}
-
-.container {background-color: #fff;margin: 20px auto;
-padding: 15px;
-border: 2px solid #ddd;
-width: 300px;
-border-radius: 8px;
-box-shadow: 0 2px 5px rgba(red, green, blue, alpha);}
-
-.inputs,output {margin: 10px 0;}
-.text {font-weight: bold;color: #333;}
-.input, .reslt {
-    display: inline-block;
-    margin: 0 10px;
-    background-color: #eee;
-    border-radius: 4px;
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(black,red,tomato);
 }
-.result {
-    background-color: #00d1b2; /* verde si es 1*/
-    color: white;
+
+.title {
+    margin-top: 20px;
+    color: antiquewhite;
 }
+
+.container{
+    background-color: rgb(233, 147, 35);
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid  rgb(37, 37, 53);
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
+}
+.inputs, .output {
+    margin: 10px 0;
+}
+    .text {
+        font-weight:italic small-caps bold 16px/2 cursive;
+        color: rgb(8, 44, 44);
+    }
+        .container {
+            text-align: center;
+        }
+            .input, .result {
+                display: inline-block;
+                margin: 0 10px;
+                padding: 5px 10px;
+                background-color:#110101;
+                border-radius: 4px;
+            }
+
+            .result {
+                background-color: rgb(4, 12, 12);
+                color: aliceblue;
+            }

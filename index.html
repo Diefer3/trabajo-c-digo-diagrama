@@ -1,17 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 
 <head>
    <link rel="stylesheet" href="style.css">
     <!-- creamos el titulo de nuestro proyecto -->
     <title>Compuertas logicas</title> 
+    <!-- title representa el tiutulo de la pagina -->
 </head>
 <body>
 
     <!-- comenzamos el desarrolo del proyecto con el subtitulo -->
     <h1> Simulador de compuertas logicas</h1>
     <div class="container">
-        <h2 class="title">Compuerta AND</h2>
+        <table>
+            <thead>
+                <tr>
+                    <h2 class="title">Compuerta AND</h2>
         <div class="inputs">
             <label class="text">Entrada A</label>
             <span class="inputs">1</span>
@@ -20,8 +24,54 @@
         </div>
         <div class="output">
             <label class="text">Salida</label>
+            <span class="result">0</span>
+        </div>
+                </tr>
+
+                <tr>
+                    <h2 class="title">Compuerta AND</h2>
+        <div class="inputs">
+            <label class="text">Entrada A</label>
+            <span class="inputs">1</span>
+            <label class="text">Entrada B</label>
+            <span class="inputs">0</span>
+        </div>
+        <div class="output">
+            <label class="text">Salida</label>
             <span class="result">1</span>
         </div>
+                </tr>
+
+                <tr>
+                    <h2 class="title">Compuerta AND</h2>
+        <div class="inputs">
+            <label class="text">Entrada A</label>
+            <span class="inputs">0</span>
+            <label class="text">Entrada B</label>
+            <span class="inputs">1</span>
+        </div>
+        <div class="output">
+            <label class="text">Salida</label>
+            <span class="result">1</span>
+        </div>
+                </tr>
+
+                <tr>
+                    <h2 class="title">Compuerta AND</h2>
+        <div class="inputs">
+            <label class="text">Entrada A</label>
+            <span class="inputs">0</span>
+            <label class="text">Entrada B</label>
+            <span class="inputs">0</span>
+        </div>
+        <div class="output">
+            <label class="text">Salida</label>
+            <span class="result">0</span>
+        </div>
+                </tr>
+            </thead>
+        </table>
+              
     </div>
 </body>
 </html>
