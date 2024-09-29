@@ -12,6 +12,7 @@ body{
 }
 
 .container{
+    /* colocamos el color de fondo */
     background-color: rgb(233, 147, 35);
     margin: 20px auto;
     padding: 15px;
@@ -28,6 +29,7 @@ body{
         color: rgb(8, 44, 44);
     }
         .container {
+            /* con esta etiqueta podemos organizar el texto */
             text-align: center;
         }
             .input, .result {
@@ -38,7 +40,8 @@ body{
                 border-radius: 4px;
             }
 
-            .result {
+            .result { 
+                /* por ultimo escogemos el color en la casilla de resultado */
                 background-color: rgb(4, 12, 12);
                 color: aliceblue;
             }
